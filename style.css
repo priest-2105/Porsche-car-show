@@ -1,0 +1,432 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+    overflow: hidden;
+}
+ 
+li{list-style-type: none;}
+
+
+.scroll-number-container{
+    background-color: transparent;
+    padding-bottom: 50px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    font-size: 250px;
+    font-weight: 800;
+  transition: 0.5s ease-out;
+  
+}
+
+/* first car animation  */
+
+.col-one{
+    margin-top: -275px;
+}
+
+.col-two{
+    margin-top: -2565px;
+}
+
+.col-three{
+    margin-top: -1135px;
+}
+
+.col-four{
+    margin-top: -2280px;
+}
+
+
+
+
+/* second car animation  */
+
+
+/* .col-one{
+    margin-top: -285px;
+}
+
+.col-two{
+    margin-top: -2580px;
+}
+
+.col-three{
+    margin-top: -1710px;
+    
+}
+
+.col-four{
+ margin-top: -1140px;
+}  */
+
+
+
+/* third car animation  */
+/* .col-one{
+    margin-top: -285px;
+}
+
+.col-two{
+    margin-top: -2580px;
+}
+
+.col-three{
+    margin-top: -2580px;
+
+    
+}
+.col-four{
+    margin-top: -2580px;
+} */
+
+
+
+/* fourth car animation */
+/* 
+.col-one{
+    margin-top: -570px;
+    
+}
+
+.col-two{
+    margin-top: 0px;
+}
+
+.col-three{
+    margin-top: -285px;
+
+    
+}
+.col-four{
+    margin-top: -2580px;
+} */
+
+
+
+
+.car-slides{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(129,174,203); 
+    /* background-color: rgb(255, 255, 255);  */
+    /* background-color: #b0aeb1; */
+    /* background-color: #383838; */
+    animation-name: background-color-animation;
+    animation-duration: 19.7s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;  
+    animation-delay: 1s;
+}
+
+    @keyframes background-color-animation {
+     0%{background-color: rgba(129,174,203); }
+     25%{background-color: rgb(255, 255, 255);}
+     50%{ background-color: #b0aeb1; }
+     75%{background-color: #383838;}
+     100%{background-color: #383838;}   
+    }
+
+
+
+
+.slide-one{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+}
+
+.slide-one h1{
+    margin-top: 40px;
+    font-size: 280px;
+    font-weight: 800;
+    background:rgb(57, 110, 143);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block; 
+}
+
+
+
+.slide-one img{
+    height: 250px;
+    width: 700px;
+    position: fixed;
+    top:35%;
+    left: 20%;
+    animation-name: first-slide-car-animation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite; 
+    animation-delay: 1.5s; 
+}
+
+@keyframes first-slide-car-animation {
+0%{margin-left: 0px; }
+25%{margin-left: -1200px; }
+50%{ margin-left: -1200px;  }
+75%{ margin-left: -1200px; }
+100%{ margin-left: -1200px; }   
+}
+    
+
+.slide-one p{
+    /* position: absolute; */
+    /* top: 5%; */
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -160px;
+    font-weight: 800;
+    animation-name: first-slide-text-animation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;  
+    animation-delay: 1.5s;
+}
+
+@keyframes first-slide-text-animation {
+ 0%{margin-left: 0px; }
+ 25%{margin-left: -1200px; }
+ 50%{ margin-left: -1200px;  }
+ 75%{ margin-left: -1200px; }
+ 100%{ margin-left: -1200px; }   
+}
+
+
+
+.slide-two{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+}
+
+.slide-two h1{
+    margin-top: 40px;
+    font-size: 280px;
+    font-weight: 800;
+    background:#d1b68f;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+.slide-two img{
+    height: 200px;
+    width: 600px;
+    position: fixed;
+    top:40%;
+    left: 26%; 
+    margin-left: 900px;
+    animation-name: second-slide-car-animation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite; 
+    animation-delay: 1.5s; 
+}
+
+@keyframes second-slide-car-animation {
+0%{margin-left: 900px; }
+25%{margin-left: -0px; }
+50%{ margin-left: -1200px;  }
+75%{ margin-left: -1200px; }
+100%{ margin-left: -1200px; }   
+}
+
+
+
+.slide-two p{
+    /* position: absolute; */
+    /* top: 5%; */
+    font-size: 70px;
+    color: rgb(22, 31, 40);
+    text-align: center;
+    margin-top: -160px;
+    font-weight: 800;
+    animation-name: first-slide-text-animation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;  
+    animation-delay: 1.5s;
+}
+
+@keyframes first-slide-text-animation {
+ 0%{margin-left: 0px; }
+ 25%{margin-left: -1200px; }
+ 50%{ margin-left: -1200px;  }
+ 75%{ margin-left: -1200px; }
+ 100%{ margin-left: -1200px; }   
+}
+
+
+.slide-three{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+}
+
+.slide-three h1{
+    margin-top: 40px;
+    font-size: 280px;
+    font-weight: 800;
+    background:#7a7a7a;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+.slide-three img{
+    height: 230px;
+    width: 600px;
+    position: fixed;
+    top:38%;
+    left: 30%;
+    margin-left: 900px;
+    animation-name: third-slide-car-animation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite; 
+    animation-delay: 1.5s; 
+}
+
+@keyframes third-slide-car-animation {
+0%{margin-left: 900px; }
+25%{margin-left: 900px; }
+50%{ margin-left: -0px;  }
+75%{ margin-left: -1200px; }
+100%{ margin-left: -1200px; }   
+}
+
+
+.slide-three p{
+    position: absolute;
+    top: 5%;
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+    /* margin-top: -160px;  */
+    font-weight: 800;
+    animation-name: second-slide-text-animation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;  
+    animation-delay: 1.5s;
+}
+
+@keyframes third-slide-text-animation {
+ 0%{margin-left: 900px; }
+ 25%{margin-left: 900px; }
+ 50%{ margin-left: 0px;  }
+ 75%{ margin-left: -1200px; }
+ 100%{ margin-left: -1200px; }   
+}
+
+
+
+
+
+
+
+
+
+.slide-four{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+}
+
+.slide-four h1{
+    margin-top: 40px;
+    font-size: 280px;
+    font-weight: 800;
+    background:#0f0f0f;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+.slide-four img{
+    height: 200px;
+    width: 600px;
+    position: fixed;
+    top:38%;
+    left: 25%;
+    margin-left: 1200px;
+    animation-name: fourth-slide-car-animation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite; 
+    animation-delay: 1.5s; 
+}
+
+@keyframes fourth-slide-car-animation {
+0%{margin-left: 1900px; }
+25%{margin-left: 1900px; }
+50%{ margin-left: 1900px;  }
+75%{ margin-left: 0px; }
+100%{ margin-left: 0px; }   
+}
+    
+
+.slide-four p{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -160px;
+    font-weight: 800;
+    animation-name:  fourth-text-animation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;  
+    animation-delay: 1.5s;
+}
+
+@keyframes fourth-slide-text-animation {
+ 0%{margin-left: 900px; }
+ 25%{margin-left: 900px; }
+ 50%{ margin-left: 900px;  }
+ 75%{ margin-left: 0px; }
+ 100%{ margin-left:0px; }   
+}

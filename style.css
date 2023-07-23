@@ -1,143 +1,185 @@
-html, body{
+
+body{
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
-    /* overflow: hidden; */
-    overflow: hidden;
-}
- 
-li{list-style-type: none;}
-
-
-.scroll-number-container{
-    background-color: transparent;
-    padding-bottom: 50px;
-    height: 220px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    margin-top: 50px;
-    font-size: 250px;
-    font-weight: 800;
-  transition: 0.5s ease-out;
-  
-}
-
-/* first car animation  */
-
-.col-one{
-    margin-top: -275px;
-}
-
-.col-two{
-    margin-top: -2565px;
-}
-
-.col-three{
-    margin-top: -1135px;
-}
-
-.col-four{
-    margin-top: -2280px;
-}
-
-
-
-
-/* second car animation  */
-
-
-/* .col-one{
-    margin-top: -285px;
-}
-
-.col-two{
-    margin-top: -2580px;
-}
-
-.col-three{
-    margin-top: -1710px;
-    
-}
-
-.col-four{
- margin-top: -1140px;
-}  */
-
-
-
-/* third car animation  */
-/* .col-one{
-    margin-top: -285px;
-}
-
-.col-two{
-    margin-top: -2580px;
-}
-
-.col-three{
-    margin-top: -2580px;
-
-    
-}
-.col-four{
-    margin-top: -2580px;
-} */
-
-
-
-/* fourth car animation */
-/* 
-.col-one{
-    margin-top: -570px;
-    
-}
-
-.col-two{
-    margin-top: 0px;
-}
-
-.col-three{
-    margin-top: -285px;
-
-    
-}
-.col-four{
-    margin-top: -2580px;
-} */
-
-
-
-
-.car-slides{
-    margin: 0;
-    padding: 0;
     height: 100%;
-    width: 100%;
+    /* margin-top: -30vh; */
+    overflow: hidden;
     background-color: rgba(129,174,203); 
     /* background-color: rgb(255, 255, 255);  */
     /* background-color: #b0aeb1; */
     /* background-color: #383838; */
     animation-name: background-color-animation;
-    animation-duration: 19.7s;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite;  
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
 }
 
     @keyframes background-color-animation {
-     0%{background-color: rgba(129,174,203); }
-     25%{background-color: rgb(255, 255, 255);}
-     50%{ background-color: #b0aeb1; }
-     75%{background-color: #383838;}
-     100%{background-color: #383838;}   
+        0%{background-color: rgba(129,174,203); }
+        4%{background-color: rgba(129,174,203); }
+        25.3%{background-color: rgba(129,174,203);}
+        33.3%{background-color: rgb(255, 255, 255);}
+        60.6%{ background-color: rgb(255, 255, 255) }
+        65.6%{ background-color: #b0aeb1; }
+        85.6%{ background-color: #b0aeb1; }
+        89.9%{background-color: #383838;}
+        99.9%{background-color: #383838;}
+        100%{background-color: #383838;}   
     }
 
+
+
+
+li{
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+ 
+
+
+.scroll-number-container{
+    background-color: transparent;
+    /* padding-bottom: 150px; */
+    margin-top:130px ;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center; 
+    display: flex;
+    font-size: 230px;
+    font-weight: 800;
+  transition: 0.5s ease-out;
+  
+}
+
+
+
+.col-one{
+    margin-top: -315px;
+    animation-name: col-one-animation;
+    animation-duration: 15.2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;  
+        /* animation-delay: 1s; */
+    }
+
+    @keyframes col-one-animation {
+    0%{color:rgb(57, 110, 143); margin-top: -315px; }
+    4%{color:rgb(57, 110, 143); margin-top: -315px; }
+    25%{color:rgb(57, 110, 143); margin-top: -315px; }
+    33.3%{color:#d1b68f; margin-top: -315px; }
+    60.3%{color:#d1b68f; margin-top: -315px; }
+    65.6%{ color: rgb(22, 31, 40,0.6);margin-top: -315px; }
+    85.6%{color: rgb(22, 31, 40,0.6); margin-top: -315px; }
+    89.9%{color: black; margin-top: -590px; }
+    99.9%{color: black; margin-top: -590px; }
+    100%{color: black;margin-top: -590px; }  
+ 
+    
+    }
+
+
+
+.col-two{
+    /* margin-top: -2565px; */
+    animation-name: col-two-animation;
+    animation-duration: 15.2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;  
+    /* animation-delay: 1s; */
+    }
+    
+    @keyframes col-two-animation {
+    
+        0%{color:rgb(57, 110, 143); margin-top: -2500px;}
+        4%{color:rgb(57, 110, 143); margin-top: -2500px;}
+        25.3%{color:rgb(57, 110, 143); margin-top: -2500px;}
+        33.3%{color:#d1b68f; margin-top: -2500px; }
+        60.6%{color:#d1b68f; margin-top: -2500px; }
+        65.6%{color: rgb(22, 31, 40,0.6); margin-top: -2500px;}
+        85.6%{color: rgb(22, 31, 40,0.6); margin-top: -2500px;}
+        89.9%{color: black; margin-top: -45px;}
+        99.9%{color: black; margin-top: -45px;}
+        100%{color: black; margin-top: -45px;}   
+
+      
+       }
+
+
+    .col-three{
+    /* margin-top: -2565px; */
+    animation-name: col-three-animation;
+    animation-duration: 15.2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;  
+    /* animation-delay: 1s; */
+    }
+
+    @keyframes col-three-animation {
+
+        0%{color:rgb(57, 110, 143); margin-top: -1130px;}
+        4%{color:rgb(57, 110, 143); margin-top: -1130px;}
+        25%{color:rgb(57, 110, 143); margin-top: -1130px;}
+        33.3%{color:#d1b68f; margin-top: -1675px; }
+        60.3%{color:#d1b68f; margin-top: -1675px; }
+        65.6%{ color: rgb(22, 31, 40,0.6);margin-top: -2500px;}
+        85.6%{color: rgb(22, 31, 40,0.6); margin-top: -2500px;}
+        89.9%{color: black; margin-top: -315px;}
+        99.9%{color: black; margin-top: -315px;}
+        100%{color: black; margin-top: -315px;}   
+      
+
+
+    }
+
+
+    .col-four{
+        /* margin-top: -2565px; */
+        animation-name: col-four-animation;
+        animation-duration: 15.2s;
+        animation-timing-function: ease-in-out;
+        animation-direction: normal; 
+        animation-iteration-count: infinite;  
+        /* animation-delay: 1s; */
+        }
+    
+        @keyframes col-four-animation {
+    
+            0%{color:rgb(57, 110, 143); margin-top: -2220px;}
+            4%{color:rgb(57, 110, 143); margin-top: -2220px;}
+            25%{color:rgb(57, 110, 143); margin-top: -2220px;}
+            33.3%{color:#d1b68f; margin-top: -1130px; }
+            60.3%{color:#d1b68f; margin-top: -1130px; }
+            65.6%{ color: rgb(22, 31, 40,0.6);margin-top: -2500px;}
+            85.6%{color: rgb(22, 31, 40,0.6); margin-top: -2500px;}
+            89.9%{color: black; margin-top: -2500px;}
+            99.9%{color: black; margin-top: -2500px;}
+            100%{color: black; margin-top: -2500px;}   
+                      
+
+
+        }
+       
+   
+
+
+
+.car-slides{
+    /* padding-top: 450px; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 
 
 
@@ -152,10 +194,8 @@ li{list-style-type: none;}
 }
 
 .slide-one h1{
-    margin-top: 40px;
     font-size: 280px;
     font-weight: 800;
-    background:rgb(57, 110, 143);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -171,45 +211,58 @@ li{list-style-type: none;}
     top:35%;
     left: 20%;
     animation-name: first-slide-car-animation;
-    animation-duration: 20s;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite; 
-    animation-delay: 1.5s; 
+    /* animation-delay: 2.9s;  */
 }
 
 @keyframes first-slide-car-animation {
 0%{margin-left: 0px; }
-25%{margin-left: -1200px; }
-50%{ margin-left: -1200px;  }
-75%{ margin-left: -1200px; }
+4%{margin-left: 0px; }
+25.3%{margin-left: -0px; }
+33.3%{margin-left: -1200px; }
+60.6%{ margin-left: -1200px;  }
+66.6%{ margin-left: -1200px;  }
+85.9%{ margin-left: -1200px; }
+89.9%{ margin-left: -1200px; }
+99.9%{ margin-left: -1200px; }
 100%{ margin-left: -1200px; }   
+
+
 }
     
 
 .slide-one p{
-    /* position: absolute; */
-    /* top: 5%; */
+    width: fit-content;
+    text-align: center;
+    position:fixed;
+    top:70%;
+    left: 35%;
     font-size: 70px;
     color: aliceblue;
     text-align: center;
-    margin-top: -160px;
     font-weight: 800;
     animation-name: first-slide-text-animation;
-    animation-duration: 20s;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite;  
-    animation-delay: 1.5s;
 }
 
 @keyframes first-slide-text-animation {
- 0%{margin-left: 0px; }
- 25%{margin-left: -1200px; }
- 50%{ margin-left: -1200px;  }
- 75%{ margin-left: -1200px; }
- 100%{ margin-left: -1200px; }   
-}
+    0%{margin-left: 0px; }
+    4%{margin-left: 0px; }
+    25.3%{margin-left: 0px; }
+    33.3%{margin-left: -1200px; }
+    60.6%{ margin-left: -1200px;  }
+    66.6%{ margin-left: -1200px;  }
+    85.9%{ margin-left: -1200px; }
+    89.9%{ margin-left: -1200px; }
+    99.9%{ margin-left: -1200px; }
+    100%{ margin-left: -1200px; }    
+    }
 
 
 
@@ -224,7 +277,6 @@ li{list-style-type: none;}
 }
 
 .slide-two h1{
-    margin-top: 40px;
     font-size: 280px;
     font-weight: 800;
     background:#d1b68f;
@@ -240,48 +292,61 @@ li{list-style-type: none;}
     position: fixed;
     top:40%;
     left: 26%; 
-    margin-left: 900px;
+    margin-left:1900px;
     animation-name: second-slide-car-animation;
-    animation-duration: 20s;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite; 
-    animation-delay: 1.5s; 
+    /* animation-delay: 2.9s;  */
 }
 
 @keyframes second-slide-car-animation {
-0%{margin-left: 900px; }
-25%{margin-left: -0px; }
-50%{ margin-left: -1200px;  }
-75%{ margin-left: -1200px; }
-100%{ margin-left: -1200px; }   
+0%{margin-left:1900px; }
+4%{margin-left: 1900px; }
+25.3%{margin-left: 1900px; }
+33.3%{margin-left: -0px; }
+60.6%{ margin-left: -0px;  }
+66.6%{ margin-left: -1200px;  }
+85.9%{ margin-left: -1200px; }
+89.9%{ margin-left: -1200px; }
+99.9%{ margin-left: -1200px; }
+100%{ margin-left: -1200px; }
+
 }
 
 
 
 .slide-two p{
-    /* position: absolute; */
-    /* top: 5%; */
-    font-size: 70px;
-    color: rgb(22, 31, 40);
+    width: fit-content;
     text-align: center;
-    margin-top: -160px;
+    position:fixed;
+    top:70%;
+    left: 35%;
+    font-size: 70px;
+    color: rgb(22, 31, 40,0.6);
+    text-align: center;
     font-weight: 800;
-    animation-name: first-slide-text-animation;
-    animation-duration: 20s;
+    animation-name: second-slide-text-animation;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite;  
-    animation-delay: 1.5s;
+    /* animation-delay: 1.5s; */
 }
 
-@keyframes first-slide-text-animation {
- 0%{margin-left: 0px; }
- 25%{margin-left: -1200px; }
- 50%{ margin-left: -1200px;  }
- 75%{ margin-left: -1200px; }
- 100%{ margin-left: -1200px; }   
-}
+@keyframes second-slide-text-animation {
+    0%{margin-left:1900px; }
+    4%{margin-left: 1900px; }
+    25.3%{margin-left: 1900px; }
+    33.3%{margin-left: -0px; }
+    60.6%{ margin-left: -0px;  }
+    66.6%{ margin-left: -1200px;  }
+    85.9%{ margin-left: -1200px; }
+    89.9%{ margin-left: -1200px; }
+    99.9%{ margin-left: -1200px; }
+    100%{ margin-left: -1200px; }
+    }
 
 
 .slide-three{
@@ -295,7 +360,6 @@ li{list-style-type: none;}
 }
 
 .slide-three h1{
-    margin-top: 40px;
     font-size: 280px;
     font-weight: 800;
     background:#7a7a7a;
@@ -311,46 +375,60 @@ li{list-style-type: none;}
     position: fixed;
     top:38%;
     left: 30%;
-    margin-left: 900px;
+    margin-left:1900px;
     animation-name: third-slide-car-animation;
-    animation-duration: 20s;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite; 
-    animation-delay: 1.5s; 
+    /* animation-delay: 2.9s;  */
 }
 
 @keyframes third-slide-car-animation {
-0%{margin-left: 900px; }
-25%{margin-left: 900px; }
-50%{ margin-left: -0px;  }
-75%{ margin-left: -1200px; }
-100%{ margin-left: -1200px; }   
-}
+    0%{margin-left:1900px; }
+    4%{margin-left: 1900px; }
+    25.3%{margin-left: 1900px; }
+    33.3%{margin-left: 1900px; }
+    60.6%{ margin-left: 1900px;  }
+    65.6%{ margin-left: 0px;  }
+    85.9%{ margin-left: 0px; }
+    89.9%{ margin-left: -1200px; }
+    99.9%{ margin-left: -1200px; }
+    100%{ margin-left: -1200px; }
 
+    }
+    
 
 .slide-three p{
-    position: absolute;
-    top: 5%;
+    width: fit-content;
+    text-align: center;
+    position:fixed;
+    top:70%;
+    left: 35%;
     font-size: 70px;
     color: aliceblue;
     text-align: center;
-    /* margin-top: -160px;  */
     font-weight: 800;
-    animation-name: second-slide-text-animation;
-    animation-duration: 20s;
+    animation-name: third-slide-text-animation;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite;  
-    animation-delay: 1.5s;
+    /* animation-delay: 1.5s; */
 }
 
 @keyframes third-slide-text-animation {
- 0%{margin-left: 900px; }
- 25%{margin-left: 900px; }
- 50%{ margin-left: 0px;  }
- 75%{ margin-left: -1200px; }
- 100%{ margin-left: -1200px; }   
+    0%{margin-left:1900px; }
+    4%{margin-left: 1900px; }
+    25.3%{margin-left: 1900px; }
+    33.3%{margin-left: 1900px; }
+    60.6%{ margin-left: 1900px;  }
+    65.6%{ margin-left: 0px;  }
+    85.9%{ margin-left: 0px; }
+    89.9%{ margin-left: -1200px; }
+    99.9%{ margin-left: -1200px; }
+    100%{ margin-left: -1200px; }
+ 
 }
 
 
@@ -372,7 +450,6 @@ li{list-style-type: none;}
 }
 
 .slide-four h1{
-    margin-top: 40px;
     font-size: 280px;
     font-weight: 800;
     background:#0f0f0f;
@@ -387,46 +464,123 @@ li{list-style-type: none;}
     width: 600px;
     position: fixed;
     top:38%;
-    left: 25%;
+    left: 33.3%;
     margin-left: 1200px;
     animation-name: fourth-slide-car-animation;
-    animation-duration: 20s;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite; 
-    animation-delay: 1.5s; 
+    /* animation-delay: 2.9s;  */
 }
 
 @keyframes fourth-slide-car-animation {
-0%{margin-left: 1900px; }
-25%{margin-left: 1900px; }
-50%{ margin-left: 1900px;  }
-75%{ margin-left: 0px; }
-100%{ margin-left: 0px; }   
-}
+    0%{margin-left:1900px; }
+    4%{margin-left: 1900px; }
+    25.3%{margin-left: 1900px; }
+    33.3%{margin-left: 1900px; }
+    60.6%{ margin-left: 1900px;  }
+    65.6%{ margin-left: 1900px;  }
+    85.9%{ margin-left: 1900px; }
+    89.9%{ margin-left: -100px; }
+    99.9%{ margin-left: -100px; }
+    100%{ margin-left: -100px; }
+    }
     
 
 .slide-four p{
-    position: absolute;
-    top: 5%;
-    left: 4%;
+    width: fit-content;
+    text-align: center;
+    position:fixed;
+    top:70%;
+    left: 35%;
     font-size: 70px;
     color: aliceblue;
     text-align: center;
-    margin-top: -160px;
     font-weight: 800;
-    animation-name:  fourth-text-animation;
-    animation-duration: 20s;
+    animation-name:  fourth-slide-text-animation;
+    animation-duration: 15.2s;
     animation-timing-function: ease-in-out;
     animation-direction: normal; 
     animation-iteration-count: infinite;  
-    animation-delay: 1.5s;
+    /* animation-delay: 1.5s; */
 }
 
 @keyframes fourth-slide-text-animation {
- 0%{margin-left: 900px; }
- 25%{margin-left: 900px; }
- 50%{ margin-left: 900px;  }
- 75%{ margin-left: 0px; }
- 100%{ margin-left:0px; }   
+    0%{margin-left:1900px; }
+    4%{margin-left: 1900px; }
+    25.3%{margin-left: 1900px; }
+    33.3%{margin-left: 1900px; }
+    60.6%{ margin-left: 1900px;  }
+    65.6%{ margin-left: 1900px;  }
+    85.9%{ margin-left: 1900px; }
+    89.9%{ margin-left: 0px; }
+    99.9%{ margin-left: 0px; }
+    100%{ margin-left: 0px; }  
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:991px)  {
+
+    
+.slide-one img{
+    left:12%;
+}
+
+
+.slide-two img{
+    left:12%;
+}
+
+.slide-three img{
+    left:12%;
+}
+
+.slide-four img{
+    left:12%;
+}
+
+    }
+
+@media only screen and (max-width:768px)  {
+ 
+    body{  
+         /* transform: rotate(90deg); */
+         /* width: 130vh; */
+        }
+
+    .scroll-number-container{
+        /* margin-top:200px;    */ 
+        font-size: 130px; 
+        
+    }
+
+
+        
+        .slide-one img{
+           width: 450px;
+           height: 200px;
+        }
+
+
+        .slide-two img{
+           width: 450px;
+           height: 200px;
+        }
+
+        .slide-three img{
+           width: 450px;
+           height: 200px;
+        }
+
+        .slide-four img{
+           width: 450px;
+           height: 200px;
+        }
+
 }

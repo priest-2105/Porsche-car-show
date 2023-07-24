@@ -547,26 +547,16 @@ li{
 
     }
 
-@media only screen and (max-width:768px)  {
+@media only screen and (max-width:580px)  {
  
-    body{  
-         transform: rotate(90deg);
-         width: 100vh;
-        }
-
-    .scroll-number-container{
-        margin-top:200px; 
-        
-    }
-
-
-        
+    
+    
 
         .slide-one img{
            width: 450px;
            height: 170px;
-           left: 30%;
-           top: 76%;
+           left: 40%;
+           top: 86%;
 
         }
 
@@ -578,8 +568,8 @@ li{
         .slide-two img{
            width: 450px;
            height: 170px;
-           left: 30%;
-           top: 76%;
+           left: 40%;
+           top: 86%;
 
         }
 
@@ -590,8 +580,8 @@ li{
         .slide-three img{
            width: 450px;
            height: 170px;
-           left: 30%;
-           top: 76%;
+           left: 40%;
+           top: 86%;
 
         }
 
@@ -602,8 +592,8 @@ li{
         .slide-four img{
            width: 450px;
            height: 170px;
-           left: 38%;
-           top: 76%;
+           left: 48%;
+           top: 86%;
            margin-left: 120px;
         }
 
@@ -612,5 +602,67 @@ li{
     margin-left:200px;
 
   }
+
+}
+
+
+
+
+@media only screen and (max-width:768px)  {
+
+           
+
+    .slide-one img{
+        width: 450px;
+        height: 170px;
+        left: 30%;
+        top: 76%;
+
+     }
+
+    .slide-one p{
+     margin-top:220px ;
+    }
+
+
+     .slide-two img{
+        width: 450px;
+        height: 170px;
+        left: 30%;
+        top: 76%;
+
+     }
+
+    .slide-two p{
+     margin-top:220px ;
+    }
+
+     .slide-three img{
+        width: 450px;
+        height: 170px;
+        left: 30%;
+        top: 76%;
+
+     }
+
+  .slide-three p{
+     margin-top:220px ;
+  }
+
+     .slide-four img{
+        width: 450px;
+        height: 170px;
+        left: 38%;
+        top: 76%;
+        margin-left: 120px;
+     }
+
+   .slide-four p{
+ margin-top:220px ;  
+ margin-left:200px;
+
+}
+
+
 
 }

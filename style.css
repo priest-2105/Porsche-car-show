@@ -547,16 +547,26 @@ li{
 
     }
 
-@media only screen and (max-width:580px)  {
+@media only screen and (max-width:768px)  {
  
-    
-    
+    body{  
+         transform: rotate(90deg);
+         width: 100vh;
+        }
+
+    .scroll-number-container{
+        margin-top:200px; 
+        
+    }
+
+
+        
 
         .slide-one img{
            width: 450px;
            height: 170px;
-           left: 40%;
-           top: 86%;
+           left: 30%;
+           top: 76%;
 
         }
 
@@ -568,8 +578,8 @@ li{
         .slide-two img{
            width: 450px;
            height: 170px;
-           left: 40%;
-           top: 86%;
+           left: 30%;
+           top: 76%;
 
         }
 
@@ -580,8 +590,8 @@ li{
         .slide-three img{
            width: 450px;
            height: 170px;
-           left: 40%;
-           top: 86%;
+           left: 30%;
+           top: 76%;
 
         }
 
@@ -592,8 +602,8 @@ li{
         .slide-four img{
            width: 450px;
            height: 170px;
-           left: 48%;
-           top: 86%;
+           left: 38%;
+           top: 76%;
            margin-left: 120px;
         }
 
@@ -608,15 +618,15 @@ li{
 
 
 
-@media only screen and (max-width:768px)  {
+@media only screen and (max-width:580px)  {
 
            
 
     .slide-one img{
         width: 450px;
         height: 170px;
-        left: 30%;
-        top: 76%;
+        left: 50%;
+        top: 86%;
 
      }
 
@@ -628,8 +638,8 @@ li{
      .slide-two img{
         width: 450px;
         height: 170px;
-        left: 30%;
-        top: 76%;
+        left: 50%;
+        top: 86%;
 
      }
 
@@ -640,8 +650,8 @@ li{
      .slide-three img{
         width: 450px;
         height: 170px;
-        left: 30%;
-        top: 76%;
+        left: 50%;
+        top: 86%;
 
      }
 
@@ -652,8 +662,8 @@ li{
      .slide-four img{
         width: 450px;
         height: 170px;
-        left: 38%;
-        top: 76%;
+        left: 58%;
+        top: 86%;
         margin-left: 120px;
      }
 
